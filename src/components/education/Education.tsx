@@ -15,7 +15,7 @@ const Education: React.FC<EducationProps> = () => {
                         <Card
                             date="2022 - 2024"
                             type="Post Graduation"
-                            degreetype="Master's Degree"
+                            degreetype="Master&apos;s Degree"
                             branch="MCA"
                             branchFull="Masters of Computer Application"
                             university="Jabalpur Enginerring College"
@@ -24,7 +24,7 @@ const Education: React.FC<EducationProps> = () => {
                         <Card
                             date="2019 - 2021"
                             type="Graduation"
-                            degreetype="Bachelor's Degree"
+                            degreetype="Bachelor&apos;s Degree"
                             branch="BA"
                             branchFull="Bachelor of Arts"
                             university="Vikram University"

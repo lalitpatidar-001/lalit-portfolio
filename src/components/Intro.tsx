@@ -6,7 +6,7 @@ const Intro: React.FC<IntroProps> = () => {
     return (
         <article className="flex flex-col items-center gap-2 w-full mt-10 ">
             <div className="flex text-3xl ">
-                <h1 className="text-white font-bold font-serif">Hello! I'm <span className="text-[#EFAE02]"> Lalit Patidar</span></h1>
+                <h1 className="text-white font-bold font-serif">Hello! I&apos;m <span className="text-[#EFAE02]"> Lalit Patidar</span></h1>
             </div>
             <div className="flex font-medium gap-2 ">
                 <h1>A Full Stack Web Developer</h1>
