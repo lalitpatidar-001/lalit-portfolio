@@ -38,8 +38,8 @@ const Card: React.FC<CardProps> = ({
                     <h3 className="text-sm text-gray-300 ">Technologies I have used</h3>
                     <div className="flex flex-wrap w-full  gap-1 pl-2">
                        {
-            technologies.map((skill)=>(
-                <SkillBox {...skill}/>
+            technologies.map((skill,index)=>(
+                <SkillBox key={index} {...skill}/>
             ))
                        }
                     </div>
