@@ -11,7 +11,7 @@ const Education: React.FC<EducationProps> = () => {
             <div className="w-full   max-w-3xl ">
                 <div className="bg-[#0c0c0c] mt-10 ">
                     <h1 className="text-3xl text-[#EFAE02] font-bold py-3 text-center">Education</h1>
-                    <div className="flex gap-3">
+                    <div className="flex flex-col sm:flex-row gap-3">
                         <Card
                             date="2022 - 2024"
                             type="Post Graduation"
