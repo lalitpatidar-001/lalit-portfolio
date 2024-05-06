@@ -9,7 +9,7 @@ interface HeroSectionProps {
 
 const HeroSection: React.FC<HeroSectionProps> = () => {
     return (
-        <section className="bg-[#0c0c0c] h-screen w-full pt-2 px-1 flex justify-center text-white" >
+        <section className="bg-[#0c0c0c] mb-8 w-full pt-2 px-1 flex justify-center text-white" >
             <div className="w-full   max-w-3xl ">
                 <Navbar />
                 <div className=" lg:mt-2">

@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import linkedinLogo from "@/assets/linkedin-logo.png"
 import twitterLogo from "@/assets/twitter-logo.png"
@@ -7,14 +8,21 @@ import gmailLogo from "@/assets/gmail-logo.png"
 import Link from "next/link";
 
 interface SocialBoxProps {
+    shouldClick?: boolean,
     logoName: string,
     title: string,
     textColor: string,
-    link:string,
+    link: string,
 
 }
 
-const SocialBox: React.FC<SocialBoxProps> = ({ logoName, title, textColor,link }) => {
+const SocialBox: React.FC<SocialBoxProps> = ({ logoName, title, textColor, link, shouldClick }) => {
+
+    const handleClick = () => {
+        if (shouldClick) {
+            window.location.href = 'mailto:lalitpatidar388@gmail.com';
+        }
+    };
 
     const logos: any = {
         linkedinLogo: linkedinLogo,
@@ -26,7 +34,7 @@ const SocialBox: React.FC<SocialBoxProps> = ({ logoName, title, textColor,link }
 
     return (
         <Link href={`${link}`} target="_blank">
-            <div className="flex bg-white rounded-2xl items-center font-bold px-1 cursor-pointer hover:bg-gray-400">
+            <div onClick={() => handleClick()} className="flex bg-white rounded-2xl items-center font-bold px-1 cursor-pointer hover:bg-gray-400">
                 <Image src={logos[logoName]} className="h-[40px] w-[40px]" alt="twitter logo" />
                 <span className={`text-[#${'2275D5'}]`}>{title}</span>
             </div>
