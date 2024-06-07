@@ -35,13 +35,13 @@ export const frontend_skills = [
         name: "Redux",
         logo: "redux_logo"
     },
-    {
-        name: "Jest",
-        logo: "jest_logo"
-    },
-    {
-        name: "Testing Library",
-        logo: "testing_library_logo"
-    }
+    // {
+    //     name: "Jest",
+    //     logo: "jest_logo"
+    // },
+    // {
+    //     name: "Testing Library",
+    //     logo: "testing_library_logo"
+    // }
     
 ];

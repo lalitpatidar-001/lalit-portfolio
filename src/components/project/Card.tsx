@@ -23,6 +23,9 @@ const Card: React.FC<CardProps> = ({
     technologies,
     githubLink,
     liveLink}) => {
+
+        
+
     return (
         <div className="flex flex-col sm:flex-row  px-2 py-1 bg-blue-500 rounded-2xl text-white items-center">
             <div className="flex-1">
@@ -49,13 +52,13 @@ const Card: React.FC<CardProps> = ({
                 <div>
                     <h3 className="text-sm text-gray-300 ">Take A Look Here</h3>
                     <div className="flex items-center gap-4 pl-2">
-                        <Link target="_blank" href={`${""}`}>
+                        {/* <Link target="_blank" href={`${""}`}>
                             <div className="flex gap-1 items-center hover:text-blue-800 
                             hover:border-blue-600 transition-all ease-in-out cursor-pointer border rounded-xl px-2 bg-[rgba(233,233,233,0.2)] ">
                                 <span className="font-medium">Live</span>
                                 <OpenInNewIcon style={{ fontSize: 16 }} />
                             </div>
-                        </Link>
+                        </Link> */}
                         <Link target="_blank" href={`${githubLink}`}>
                             <div className="flex gap-1 items-center hover:text-blue-800 
                              transition-all ease-in-out 

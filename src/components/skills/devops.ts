@@ -7,10 +7,10 @@ export const devops_technologies = [
         name: "Kubernetes",
         logo: "kubernetes_logo"
     },
-    {
-        name: "Jenkins",
-        logo: "jenkins_logo"
-    },
+    // {
+    //     name: "Jenkins",
+    //     logo: "jenkins_logo"
+    // },
     {
         name: "Git",
         logo: "git_logo"
@@ -27,10 +27,10 @@ export const devops_technologies = [
         name: "CI/CD",
         logo: "cicd_logo"
     },
-    {
-        name: "Ansible",
-        logo: "ansible_logo"
-    },
+    // {
+    //     name: "Ansible",
+    //     logo: "ansible_logo"
+    // },
     {
         name: "AWS",
         logo: "aws_logo"

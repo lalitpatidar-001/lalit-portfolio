@@ -6,7 +6,7 @@ interface LeftSkillsProps {
 
 const LeftSkills: React.FC<LeftSkillsProps> = ({ }) => {
     return (
-        <div className={`absolute  top-4 flex flex-col gap-7 w-full -left-[120px]`}>
+        <div className={`absolute  top-4 flex flex-col gap-7 w-full -left-[110px]  sm:-left-[120px]`}>
 
             <SkillBox logo="js_logo" title="JavaScript" side="left" index={0} />
             <SkillBox logo="react_logo" title="ReactJs" side="left" index={1} />

@@ -31,22 +31,22 @@ export const backend_skills = [
         name: "GraphQL",
         logo: "graphql_logo"
     },
-    {
-        name: "Django",
-        logo: "django_logo"
-    },
-    {
-        name: "Flask",
-        logo: "flask_logo"
-    },
+    // {
+    //     name: "Django",
+    //     logo: "django_logo"
+    // },
+    // {
+    //     name: "Flask",
+    //     logo: "flask_logo"
+    // },
     {
         name: "Socket.io",
         logo: "socket_io_logo"
     },
-    {
-        name: "WebRTC",
-        logo: "webrtc_logo"
-    },
+    // {
+    //     name: "WebRTC",
+    //     logo: "webrtc_logo"
+    // },
     {
         name: "Kafka",
         logo: "kafka_logo"

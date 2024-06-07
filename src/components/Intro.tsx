@@ -15,7 +15,7 @@ const Intro: React.FC<IntroProps> = () => {
             </div>
             <div className="flex items-center gap-1 text-sm ">
         <span>With</span>
-        <div className="bg-[#242424] p-1 rounded-full"><span className="text-[#EFAE02] font-medium">6 months</span></div> 
+        <div className="bg-[#242424] p-1 rounded-full"><span className="text-[#EFAE02] font-medium">1 year 2 month</span></div> 
         <span>Experience</span> 
             </div>
         </article>
